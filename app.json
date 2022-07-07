@@ -1,7 +1,7 @@
 {
   "name": "Sample Notification Web Server Application",
   "description": "Sample web application to receive Twilio Notify notification.",
-  "repository": "https://github.com/tigerfarm/notifywebdeploy",
+  "repository": "https://github.com/tigerfarm/notifywebdeply",
   "logo": "http://tigerfarmpress.com/images/topImgLeft.jpg",
   "keywords": ["node", "express", "heroku", "Twilio", "Notify", "notifications"],
     "env": {}
