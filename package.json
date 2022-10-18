@@ -1,7 +1,7 @@
 {
   "name": "notifyweb",
   "version": "0.9.0",
-  "description": "Node.js Express Conversations web application",
+  "description": "Node.js Express FCM notification web application",
   "engines": {
     "node": "16.x"
   },
@@ -10,11 +10,12 @@
     "start": "node webserver.js"
   },
   "dependencies": {
+    "twilio": "^3.82.2",
     "express": "^4.17.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tigerfarm/tfpvideo"
+    "url": "https://github.com/tigerfarm/notifiydeploy"
   },
   "keywords": [
     "twilio",
