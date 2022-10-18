@@ -1,0 +1,3 @@
+# Ignore files
+setheroku.sh
+.DS_Store
