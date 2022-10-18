@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tigerfarm/notifyweb"
+    "url": "https://github.com/tigerfarm/tfpvideo"
   },
   "keywords": [
     "twilio",
-    "notify",
+    "video",
     "node",
     "express",
     "heroku"
