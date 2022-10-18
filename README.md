@@ -13,6 +13,21 @@
 For documentation and implementation details, see:
 [GitHub repository](https://github.com/tigerfarm/notifyweb)
 
+Creating the Heroku application, setting up the GitHub for Heroku link, 
+and set applicatoin environment variables in Heroku.
+````
+$ heroku create notifywebdeploy
+$ heroku git:remote -a notifywebdeploy
+$ git push heroku main
+
+$ ./setheroku.sh
+
+For reference:
+$ heroku logs --tail
+$ heroku dyno:restart
+$ git push -u --force origin main
+````
+
 --------------------------------------------------------------------------------
 
 Cheers...
